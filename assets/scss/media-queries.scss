@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 578px){
+    .main{
+        height: 100%;
+        .row {
+            > div{
+                margin-bottom: 1.5rem;
+            }
+        }
+        &-col{
+            &_divider{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px){
+    
+}
+
+@media screen and (max-width: 360px){
+    
+}

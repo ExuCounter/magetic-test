@@ -1,0 +1,96 @@
+.sidebar {
+    width: 20rem;
+    background-color: $blue;
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    &_mini {
+        width: 5rem;
+        .sidebar-logo{
+            &__img{
+                display: none;
+            }
+        }
+        .sidebar-heading{
+            &__close-btn{
+                display: none;
+            }
+            &__open-btn{  
+                display: block;
+            }
+        }
+        .sidebar-list{
+            a{
+                display: none;
+            }
+            &__sm-icon{
+                display: block;
+            }
+        }
+    }
+    &-logo{
+        &__img{
+            margin-top: -0.25rem;
+            cursor: pointer;
+            height: 2rem;
+            width: auto;
+            display: block;
+        }
+    }
+    &-heading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: $header-height;
+        background-color: $dark-gray;
+        padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+        position: relative;
+        &__close-btn{
+            background-color: $dark-gray;
+            border: none;
+            color: #FFF;
+            position: absolute;
+            right: 0rem;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100%;
+            width: 3rem;
+            img{
+                width: 1.5rem;
+            }
+        }
+        &__open-btn{
+            background-color: transparent;
+            border: none;
+            display: none;
+            img{
+                width: 2rem;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    &-list{
+        list-style: none;
+        li{
+            padding: 1rem;
+            a{
+                color: $white;
+            }
+        }
+        &__sm-icon{
+            width: 0.8rem;
+            height: 0.8rem;
+            background-color: $dark-gray;
+            border-radius: 50%;
+            display: none;
+            margin: 0 auto;
+        }
+    }
+}

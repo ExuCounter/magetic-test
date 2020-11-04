@@ -1,0 +1,7 @@
+@media screen and (max-width: 578px) {
+  .main {
+    height: 100%; }
+    .main .row > div {
+      margin-bottom: 1.5rem; }
+    .main-col_divider {
+      margin-bottom: 0; } }

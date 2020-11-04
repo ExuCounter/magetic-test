@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 100%; }
+
+button, input, select {
+  outline: none !important; }
+
+.sm-icon {
+  width: 2rem;
+  height: 2rem; }

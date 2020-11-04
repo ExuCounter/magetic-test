@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 100%;
+    font-family: $main-font;
+    background-color: $light-gray;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 autp;
+}
+
+button, input, select{
+    outline: none !important;
+}
+
+.sm-icon{
+    width: 1.85rem;
+    height: 1.85em;
+}
