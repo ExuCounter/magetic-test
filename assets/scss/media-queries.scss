@@ -1,16 +1,25 @@
 @media screen and (max-width: 1200px){
-    
+    html{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 992px){
-
+    html{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 768px){
-
+    html{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 578px){
+    html{
+        font-size: 12px;
+    }
     .main{
         height: 100%;
         .row {
@@ -27,9 +36,13 @@
 }
 
 @media screen and (max-width: 420px){
-    
+    html{
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 360px){
-    
+    html{
+        font-size: 10px;
+    }
 }
